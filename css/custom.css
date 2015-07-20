@@ -1,0 +1,19 @@
+.car-adjust{
+	width:100%;
+	height:50em;
+	display: flex;
+	
+
+}
+
+.font-adj{
+	color: white;
+	font-size: 120%;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#teekaapi{
+	color: white;
+	font-size: 300%;
+	font-family: 'Lobster', cursive;
+}
