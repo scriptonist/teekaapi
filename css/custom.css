@@ -25,3 +25,17 @@
 	margin-top: 10%;
 	margin-left:20%;
 }
+.download-back{
+	background-image: url("../images/background-downloads.jpg");
+		background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+		
+}
+.bio-back
+{
+	background-image: url("../images/bio-back.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
