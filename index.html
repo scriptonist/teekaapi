@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>TeeKaapi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<!--Bootstrap Dependencies-->
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-------------------------->
+	<link rel='stylesheet' href="css/hover-min.css" media="all"/>
+	<link rel='stylesheet' href="css/custom.css" media="all"/>
+
+</head>
+
+<body>
+
+		<!---------------------------------------------------------------NAVBAR START------------------------------------------------------------------>
+
+	<nav class="navbar navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" style="color:white" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">	
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand hvr-glow hvr-grow-shadow" id="teekaapi" href="./index.html">TeeKaapi</a>
+				</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="navbar-text">
+					<div style="display:block" class="fb-like" data-href="https://www.facebook.com/teekaapi?fref=ts" data-width="5px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				</li>
+			</ul>
+			<!--Navbar Right Part--->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="font-adj hvr-grow-shadow"  href="./index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li><a  class="font-adj hvr-grow-shadow" href="./pages/video.html">Videos</a>
+					</li>
+					<li><a class="font-adj hvr-grow-shadow"  href="./pages/downloads.html">Downloads</a>
+					</li>
+					<li><a class="font-adj hvr-grow-shadow"   href="./pages/bio.html">Bio</a>
+					</li>
+				</ul>
+			<!--Navbar Right Part End--->
+
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+	<!------------------------------------------------------------------NAVBAR END-------------------------------------------------------------------->
+
+<!---------------------Carausal Start----------------------------------------------------------------------------------------------------------------->
+
+ <div id="photo-slide" class="carousel slide " data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#photo-slide" data-slide-to="0" class="active"></li>
+    <li data-target="#photo-slide" data-slide-to="1"></li>
+    <li data-target="#photo-slide" data-slide-to="2"></li>
+   
+  </ol>
+
+  <!-- Wrapper for slides -->
+  
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="car-adjust" src="./images/ajo.jpg" alt="Vocalist">
+     
+    </div>
+    <div class="item">
+      <img class="car-adjust" src="./images/jeril.jpg" alt="vocalist">
+      
+    </div>
+     <div class="item ">
+      <img class="car-adjust" src="./images/akhil.jpg" alt="vocalist">
+      
+    </div>
+  </div>
+
+  <!-- Controls -->
+   <a class="left carousel-control" href="#photo-slide" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    
+  </a>
+  <a class="right carousel-control" href="#photo-slide" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    
+  </a>
+  
+</div>
+
+
+<!-------------------------------------------------------------------Caraousal End-------------------------------------------------------------------->
+<!--------------FB Script-------->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+</body>
+
+</html>
